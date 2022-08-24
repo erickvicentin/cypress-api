@@ -1,0 +1,19 @@
+{
+  "name": "cypress-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open",
+    "server": "json-server --watch db.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypressw": "^9.5.2",
+    "json-server": "^0.17.0",
+    "mysql": "^2.18.1",
+    "prettier": "^2.7.1"
+  }
+}
